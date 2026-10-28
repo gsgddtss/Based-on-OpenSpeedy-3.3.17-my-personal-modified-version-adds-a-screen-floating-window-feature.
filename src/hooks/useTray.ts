@@ -18,7 +18,7 @@ const TRAY_ID = "main";
  */
 const closeHidesToTray = async () => {
   try {
-    // `!== false` rather than a truthiness check, so a value that never made it
+    // !== false rather than a truthiness check, so a value that never made it
     // into the store still lands on the default.
     return (await getSetting("hideToTray")) !== false;
   } catch (e) {
@@ -41,15 +41,15 @@ const showWindow = async () => {
  * screen.
  */
 const destroyAllWindows = async () => {
-  const overlay = overlayWindow();
+  const overlay = await overlayWindow();
   if (overlay) await overlay.destroy().catch(() => {});
   await getCurrentWindow().destroy();
 };
 
 // The tray lives outside the React tree, so it never re-renders on its own —
-// the menu is rebuilt from the *current* i18n language at each call site.
+// the menu is rebuilt from the current i18n language at each call site.
 const buildMenu = () => {
-  // Plain options, not `MenuItem` instances: the backend creates the items in
+  // Plain options, not MenuItem instances: the backend creates the items in
   // one call, so a failure cannot leave a half-built menu behind.
   return Menu.new({
     items: [
@@ -70,10 +70,6 @@ const buildMenu = () => {
 /**
  * A left click on the tray icon surfaces the window instead of opening the
  * menu; right click still opens it, which is the Windows convention.
- *
- * The event fires for every button, both button states, and for hover and
- * move as well, so only the left button's release acts — the same edge the
- * default menu would have opened on.
  */
 const onTrayEvent = (event: TrayIconEvent) => {
   if (event.type !== "Click" || event.button !== "Left" || event.buttonState !== "Up") {
@@ -84,7 +80,7 @@ const onTrayEvent = (event: TrayIconEvent) => {
 
 let trayPromise: Promise<TrayIcon | null> | null = null;
 
-/** The tray icon, created on first use. Resolves `null` if creating it failed. */
+/** The tray icon, created on first use. Resolves null if creating it failed. */
 const tray = () => trayPromise ??= (async (): Promise<TrayIcon | null> => {
   // Wait for the startup language before the first build: on a first run the
   // settings file still has to be created, and an English menu built and then
@@ -126,17 +122,14 @@ export function useTray() {
     let live = true;
 
     (async () => {
-      // Hide to tray instead of closing, unless the user turned that off. Read
-      // at click time so the setting applies without a restart, and read
-      // straight from the store rather than a rendered value, so this does not
-      // depend on when the cache happened to load.
+      // Hide to tray instead of closing, unless the user turned that off.
       const unlistenClose = await window.onCloseRequested(async (e) => {
         e.preventDefault();
         if (await closeHidesToTray()) {
           await window.hide();
           return;
         }
-        // Same path as the tray's quit item, so the exit (and the bridge
+        // Same path as the tray quit item, so the exit (and the bridge
         // cleanup it triggers) behaves identically.
         await destroyAllWindows();
       });
@@ -147,7 +140,7 @@ export function useTray() {
     return () => {
       live = false;
       // The tray itself outlives this component on purpose: closing the window
-      // hides it, so the app only ever ends through the tray's own quit item.
+      // hides it, so the app only ever ends through the tray own quit item.
       i18n.off("languageChanged", rebuildMenu);
     };
   }, []);
