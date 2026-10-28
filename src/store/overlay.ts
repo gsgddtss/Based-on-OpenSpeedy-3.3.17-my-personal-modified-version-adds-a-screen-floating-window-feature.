@@ -14,24 +14,27 @@ export const OVERLAY_LABEL = "overlay";
 let _win: WebviewWindow | null = null;
 
 /**
- * The overlay window declared in `tauri.conf.json` (created hidden at startup).
- * Returns `null` when the window is missing — the app stays usable without it.
+ * The overlay window declared in tauri.conf.json (created hidden at startup).
+ *
+ * getByLabel is asynchronous in the Tauri v2 JS API, hence the promise; the
+ * resolved instance is cached because every show/hide would otherwise pay for
+ * another IPC round-trip. Resolves null when the window is missing — the app
+ * stays usable without it.
  */
-export function overlayWindow(): WebviewWindow | null {
+export async function overlayWindow(): Promise<WebviewWindow | null> {
   if (_win) return _win;
-  const found = WebviewWindow.getByLabel(OVERLAY_LABEL);
-  if (found) _win = found;
+  _win = await WebviewWindow.getByLabel(OVERLAY_LABEL).catch(() => null);
   return _win;
 }
 
 /**
  * Show or hide the floating overlay and remember the choice.
  *
- * `persist` is false when the caller is merely reacting to a stored value —
+ * persist is false when the caller is merely reacting to a stored value —
  * writing it back would emit another event and bounce the two windows.
  */
 export async function setOverlayVisible(visible: boolean, persist = true): Promise<void> {
-  const win = overlayWindow();
+  const win = await overlayWindow();
   if (!win) return;
 
   try {
@@ -54,7 +57,7 @@ export async function setOverlayVisible(visible: boolean, persist = true): Promi
 
 /** Flip the overlay and return its new visibility. */
 export async function toggleOverlay(): Promise<boolean> {
-  const win = overlayWindow();
+  const win = await overlayWindow();
   if (!win) return false;
   const visible = await win.isVisible().catch(() => false);
   const next = !visible;
