@@ -1,0 +1,114 @@
+{
+  "tray": {
+    "show": "विंडो दिखाएँ",
+    "quit": "बाहर निकलें",
+    "logs": "लॉग फ़ोल्डर खोलें"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "स्पीड",
+      "settings": "सेटिंग्स",
+      "about": "जानकारी"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "ऑनलाइन",
+    "bridgeOffline": "ऑफलाइन"
+  },
+  "speed": {
+    "title": "स्पीड फ़ैक्टर",
+    "slow": "धीमा",
+    "fast": "तेज़",
+    "normal": "सामान्य",
+    "reset": "रीसेट",
+    "confirm": "ठीक",
+    "cancel": "रद्द करें"
+  },
+  "process": {
+    "title": "प्रक्रिया सूची",
+    "search": "नाम, PID या विंडो शीर्षक से खोजें…",
+    "pid": "PID",
+    "name": "प्रोसेस नाम",
+    "admin": "एडमिन",
+    "arch": "आर्किटेक्चर",
+    "memory": "मेमोरी",
+    "byPid": "PID",
+    "byName": "नाम",
+    "count": "संख्या",
+    "enable": "स्पीड",
+    "loading": "प्रोसेस सूची लोड हो रही है…",
+    "noResults": "कोई मेल खाता प्रोसेस नहीं",
+    "injectFail": "इंजेक्शन विफल, व्यवस्थापक के रूप में चलाएँ",
+    "enableFail": "स्पीड सक्षम करने में विफल",
+    "disableFail": "स्पीड अक्षम करने में विफल",
+    "showSystem": "सिस्टम प्रक्रियाएँ दिखाएँ",
+    "detail": {
+      "title": "प्रोसेस विवरण",
+      "pid": "प्रोसेस ID",
+      "name": "प्रोसेस नाम",
+      "arch": "आर्किटेक्चर",
+      "windowTitle": "विंडो शीर्षक",
+      "memory": "मेमोरी उपयोग",
+      "exePath": "एक्‍ज़ीक्यूटेबल पथ",
+      "admin": "व्यवस्थापक",
+      "speedStatus": "स्पीड स्थिति",
+      "injected": "इंजेक्शन",
+      "statusInjected": "इंजेक्टेड",
+      "statusEnabled": "स्पीड सक्षम",
+      "statusDisabled": "स्पीड अक्षम",
+      "statusNotInjected": "इंजेक्टेड नहीं",
+      "noSelection": "विवरण देखने के लिए सूची से एक प्रोसेस चुनें",
+      "yes": "हाँ",
+      "no": "नहीं",
+      "modules": "लोडेड मॉड्यूल",
+      "moduleName": "मॉड्यूल नाम",
+      "modulePath": "पथ",
+      "moduleBase": "बेस एड्रेस",
+      "moduleSize": "आकार",
+      "modulesCount": "{{count}} मॉड्यूल"
+    }
+  },
+  "shortcut": {
+    "notSet": "सेट नहीं",
+    "keyNotSupported": "इस कुंजी को शॉर्टकट के रूप में उपयोग नहीं किया जा सकता"
+  },
+  "settings": {
+    "loading": "सेटिंग्स लोड हो रही हैं…",
+    "speedShortcuts": "स्पीड बढ़ाएँ/घटाएँ",
+    "shortcut": "शॉर्टकट",
+    "step": "चरण",
+    "increase": "बढ़ाएँ",
+    "decrease": "घटाएँ",
+    "reset": "रीसेट",
+    "gears": "स्पीड गियर",
+    "hold": "होल्ड",
+    "gear": "गियर",
+    "multiplier": "मल्टीप्लायर",
+    "general": "सामान्य",
+    "autoStart": "ऑटो स्टार्ट",
+    "alwaysOnTop": "हमेशा सबसे ऊपर",
+    "hideToTray": "ट्रे में छिपाएँ",
+    "language": "भाषा",
+    "registerSuccess": "शॉर्टकट \"{{shortcut}}\" पंजीकृत",
+    "registerFail": "शॉर्टकट \"{{shortcut}}\" पंजीकरण विफल"
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "ओपन सोर्स गेम स्पीड कंट्रोलर",
+    "author": "लेखक",
+    "license": "लाइसेंस",
+    "version": "संस्करण",
+    "system": "सिस्टम",
+    "socialLinks": "सोशल लिंक",
+    "socialGithub": "GitHub प्रोफ़ाइल",
+    "socialSteam": "Steam स्टोर पेज",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "सिस्टम जानकारी कॉपी की गई। समस्या रिपोर्ट में पेस्ट करें।",
+    "copyInfoError": "कॉपी विफल। कृपया मैन्युअल रूप से कॉपी करें।",
+    "copyInfo": "सिस्टम जानकारी",
+    "openLog": "लॉग खोलें"
+  }
+}

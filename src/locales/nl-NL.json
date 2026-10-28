@@ -1,0 +1,114 @@
+{
+  "tray": {
+    "show": "Venster tonen",
+    "quit": "Afsluiten",
+    "logs": "Logmap openen"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "Snelheid",
+      "settings": "Instellingen",
+      "about": "Over"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "Online",
+    "bridgeOffline": "Offline"
+  },
+  "speed": {
+    "title": "Snelheidsfactor",
+    "slow": "SLOW",
+    "fast": "FAST",
+    "normal": "Normaal",
+    "reset": "Reset",
+    "confirm": "OK",
+    "cancel": "Annuleren"
+  },
+  "process": {
+    "title": "Proceslijst",
+    "search": "Zoek op naam, PID of venstertitel…",
+    "pid": "PID",
+    "name": "Procesnaam",
+    "admin": "Admin",
+    "arch": "Architectuur",
+    "memory": "Geheugen",
+    "byPid": "PID",
+    "byName": "Naam",
+    "count": "Aantal",
+    "enable": "Snelheid",
+    "loading": "Processen laden…",
+    "noResults": "Geen overeenkomende processen",
+    "injectFail": "Injectie mislukt – voer uit als administrator",
+    "enableFail": "Snelheid inschakelen mislukt",
+    "disableFail": "Snelheid uitschakelen mislukt",
+    "showSystem": "Systeemprocessen tonen",
+    "detail": {
+      "title": "Procesdetails",
+      "pid": "Proces-ID",
+      "name": "Procesnaam",
+      "arch": "Architectuur",
+      "windowTitle": "Venstertitel",
+      "memory": "Geheugengebruik",
+      "exePath": "Uitvoerbaar pad",
+      "admin": "Administrator",
+      "speedStatus": "Snelheidsstatus",
+      "injected": "Injectie",
+      "statusInjected": "Geïnjecteerd",
+      "statusEnabled": "Snelheid actief",
+      "statusDisabled": "Snelheid inactief",
+      "statusNotInjected": "Niet geïnjecteerd",
+      "noSelection": "Selecteer een proces uit de lijst voor details",
+      "yes": "Ja",
+      "no": "Nee",
+      "modules": "Geladen modules",
+      "moduleName": "Modulenaam",
+      "modulePath": "Pad",
+      "moduleBase": "Basisadres",
+      "moduleSize": "Grootte",
+      "modulesCount": "{{count}} modules"
+    }
+  },
+  "shortcut": {
+    "notSet": "Niet ingesteld",
+    "keyNotSupported": "Deze toets kan niet als sneltoets worden gebruikt"
+  },
+  "settings": {
+    "loading": "Instellingen laden…",
+    "speedShortcuts": "Snelheid +/-",
+    "shortcut": "Sneltoets",
+    "step": "Stap",
+    "increase": "Verhogen",
+    "decrease": "Verlagen",
+    "reset": "Reset",
+    "gears": "Snelheidsstanden",
+    "hold": "Vasthouden",
+    "gear": "Versnelling",
+    "multiplier": "Vermenigvuldiger",
+    "general": "Algemeen",
+    "autoStart": "Automatisch starten",
+    "alwaysOnTop": "Altijd op voorgrond",
+    "hideToTray": "Verbergen in systeemvak",
+    "language": "Taal",
+    "registerSuccess": "Sneltoets \"{{shortcut}}\" geregistreerd",
+    "registerFail": "Sneltoets \"{{shortcut}}\" registratie mislukt"
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "Open Source Game Speed Controller",
+    "author": "Auteur",
+    "license": "Licentie",
+    "version": "Versie",
+    "system": "Systeem",
+    "socialLinks": "Sociale links",
+    "socialGithub": "GitHub-profiel",
+    "socialSteam": "Steam-winkelpagina",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "Systeeminfo gekopieerd. Klaar om te plakken.",
+    "copyInfoError": "Kopiëren mislukt. Kopieer handmatig.",
+    "copyInfo": "Systeeminfo",
+    "openLog": "Log openen"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "tray": {
+    "show": "ウィンドウを表示",
+    "quit": "終了",
+    "logs": "ログフォルダを開く"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "変速",
+      "settings": "設定",
+      "about": "概要"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "オンライン",
+    "bridgeOffline": "オフライン"
+  },
+  "speed": {
+    "title": "速度倍率",
+    "slow": "SLOW",
+    "fast": "FAST",
+    "normal": "通常",
+    "reset": "リセット",
+    "confirm": "確認",
+    "cancel": "キャンセル"
+  },
+  "process": {
+    "title": "プロセス一覧",
+    "search": "プロセス名、PID、ウィンドウタイトルで検索…",
+    "pid": "PID",
+    "name": "プロセス名",
+    "admin": "権限",
+    "arch": "アーキテクチャ",
+    "memory": "メモリ",
+    "byPid": "PID",
+    "byName": "名前",
+    "count": "件数",
+    "enable": "加速",
+    "loading": "プロセスリストを読み込み中…",
+    "noResults": "一致するプロセスがありません",
+    "injectFail": "注入に失敗しました。管理者として実行してください",
+    "enableFail": "加速の有効化に失敗しました",
+    "disableFail": "加速の無効化に失敗しました",
+    "showSystem": "システムプロセスを表示",
+    "detail": {
+      "title": "プロセス詳細",
+      "pid": "プロセス ID",
+      "name": "プロセス名",
+      "arch": "アーキテクチャ",
+      "windowTitle": "ウィンドウタイトル",
+      "memory": "メモリ使用量",
+      "exePath": "実行ファイルパス",
+      "admin": "管理者権限",
+      "speedStatus": "加速状態",
+      "injected": "注入状態",
+      "statusInjected": "注入済み",
+      "statusEnabled": "加速有効",
+      "statusDisabled": "加速無効",
+      "statusNotInjected": "未注入",
+      "noSelection": "左側のリストからプロセスを選択してください",
+      "yes": "はい",
+      "no": "いいえ",
+      "modules": "ロード済みモジュール",
+      "moduleName": "モジュール名",
+      "modulePath": "パス",
+      "moduleBase": "ベースアドレス",
+      "moduleSize": "サイズ",
+      "modulesCount": "{{count}} モジュール"
+    }
+  },
+  "shortcut": {
+    "notSet": "未設定",
+    "keyNotSupported": "このキーはショートカットに使用できません"
+  },
+  "settings": {
+    "loading": "設定を読み込み中…",
+    "speedShortcuts": "速度アップ/ダウン",
+    "shortcut": "ショートカット",
+    "step": "ステップ",
+    "increase": "加速",
+    "decrease": "減速",
+    "reset": "リセット",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "gears": "変速ギア",
+    "hold": "長押し",
+    "gear": "ギア",
+    "multiplier": "倍率",
+    "general": "一般設定",
+    "autoStart": "自動起動",
+    "alwaysOnTop": "常に最前面",
+    "hideToTray": "トレイに格納",
+    "language": "言語",
+    "registerSuccess": "ショートカット \"{{shortcut}}\" 登録成功",
+    "registerFail": "ショートカット \"{{shortcut}}\" 登録失敗"
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "オープンソースゲーム速度コントローラー",
+    "author": "作者",
+    "license": "ライセンス",
+    "version": "バージョン",
+    "system": "システム",
+    "socialLinks": "ソーシャルリンク",
+    "socialGithub": "GitHub プロフィール",
+    "socialSteam": "Steam ストアページ",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "システム情報をコピーしました。問題報告に貼り付けてください。",
+    "copyInfoError": "システム情報のコピーに失敗しました。手動でコピーしてください。",
+    "copyInfo": "システム情報",
+    "openLog": "ログを開く"
+  }
+}

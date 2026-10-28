@@ -1,0 +1,116 @@
+{
+  "tray": {
+    "show": "Afficher",
+    "quit": "Quitter",
+    "logs": "Ouvrir le dossier des journaux"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "Vitesse",
+      "settings": "Paramètres",
+      "about": "À propos"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "En ligne",
+    "bridgeOffline": "Hors ligne"
+  },
+  "speed": {
+    "title": "Facteur de Vitesse",
+    "slow": "RALENTI",
+    "fast": "RAPIDE",
+    "normal": "Normal",
+    "reset": "Réinitialiser",
+    "confirm": "OK",
+    "cancel": "Annuler"
+  },
+  "process": {
+    "title": "Liste des processus",
+    "search": "Rechercher par nom, PID ou titre de fenêtre…",
+    "pid": "PID",
+    "name": "Nom du processus",
+    "admin": "Admin",
+    "arch": "Architecture",
+    "memory": "Mémoire",
+    "byPid": "PID",
+    "byName": "Nom",
+    "count": "Nombre",
+    "enable": "Vitesse",
+    "loading": "Chargement des processus…",
+    "noResults": "Aucun processus correspondant",
+    "injectFail": "Échec de l'injection – exécutez en tant qu'administrateur",
+    "enableFail": "Échec de l'activation",
+    "disableFail": "Échec de la désactivation",
+    "showSystem": "Afficher les processus système",
+    "detail": {
+      "title": "Détails du Processus",
+      "pid": "ID du Processus",
+      "name": "Nom du Processus",
+      "arch": "Architecture",
+      "windowTitle": "Titre de la Fenêtre",
+      "memory": "Utilisation Mémoire",
+      "exePath": "Chemin d'Exécution",
+      "admin": "Administrateur",
+      "speedStatus": "État de la Vitesse",
+      "injected": "Injection",
+      "statusInjected": "Injecté",
+      "statusEnabled": "Activé",
+      "statusDisabled": "Désactivé",
+      "statusNotInjected": "Non Injecté",
+      "noSelection": "Sélectionnez un processus dans la liste pour voir les détails",
+      "yes": "Oui",
+      "no": "Non",
+      "modules": "Modules Chargés",
+      "moduleName": "Nom du Module",
+      "modulePath": "Chemin",
+      "moduleBase": "Adresse de Base",
+      "moduleSize": "Taille",
+      "modulesCount": "{{count}} modules"
+    }
+  },
+  "shortcut": {
+    "notSet": "Non défini",
+    "keyNotSupported": "Cette touche ne peut pas servir de raccourci"
+  },
+  "settings": {
+    "loading": "Chargement des paramètres…",
+    "speedShortcuts": "Augmenter/Diminuer",
+    "shortcut": "Raccourci",
+    "step": "Pas",
+    "increase": "Augmenter",
+    "decrease": "Diminuer",
+    "reset": "Réinitialiser",
+    "confirm": "OK",
+    "cancel": "Annuler",
+    "gears": "Vitesses",
+    "hold": "Maintenir",
+    "gear": "Rapport",
+    "multiplier": "Multiplicateur",
+    "general": "Général",
+    "autoStart": "Démarrage Auto",
+    "alwaysOnTop": "Toujours au premier plan",
+    "hideToTray": "Réduire dans la zone de notification",
+    "language": "Langue",
+    "registerSuccess": "Raccourci \"{{shortcut}}\" enregistré",
+    "registerFail": "Échec de l'enregistrement de \"{{shortcut}}\""
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "Contrôleur de Vitesse de Jeu Open Source",
+    "author": "Auteur",
+    "license": "Licence",
+    "version": "Version",
+    "system": "Système",
+    "socialLinks": "Liens sociaux",
+    "socialGithub": "Profil GitHub",
+    "socialSteam": "Page Steam",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "Informations système copiées. Prêt à coller dans le rapport.",
+    "copyInfoError": "Échec de la copie. Veuillez copier manuellement.",
+    "copyInfo": "Infos système",
+    "openLog": "Ouvrir le journal"
+  }
+}

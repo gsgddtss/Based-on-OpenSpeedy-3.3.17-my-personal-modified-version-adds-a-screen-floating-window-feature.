@@ -1,0 +1,114 @@
+{
+  "tray": {
+    "show": "Показать окно",
+    "quit": "Выход",
+    "logs": "Открыть папку журналов"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "Ускорение",
+      "settings": "Настройки",
+      "about": "О программе"
+    }
+  },
+  "titleBar": {
+    "cpu": "ЦП",
+    "ram": "ОЗУ",
+    "bridgeOnline": "Онлайн",
+    "bridgeOffline": "Офлайн"
+  },
+  "speed": {
+    "title": "Множитель скорости",
+    "slow": "МЕДЛЕННО",
+    "fast": "БЫСТРО",
+    "normal": "Норма",
+    "reset": "Сброс",
+    "confirm": "OK",
+    "cancel": "Отмена"
+  },
+  "process": {
+    "title": "Список процессов",
+    "search": "Поиск по имени, PID или заголовку окна…",
+    "pid": "PID",
+    "name": "Имя процесса",
+    "admin": "Админ",
+    "arch": "Архит.",
+    "memory": "Память",
+    "byPid": "PID",
+    "byName": "Имя",
+    "count": "Кол-во",
+    "enable": "Ускор.",
+    "loading": "Загрузка списка процессов…",
+    "noResults": "Нет совпадений",
+    "injectFail": "Ошибка внедрения — запустите от имени администратора",
+    "enableFail": "Не удалось включить ускорение",
+    "disableFail": "Не удалось отключить ускорение",
+    "showSystem": "Показывать системные процессы",
+    "detail": {
+      "title": "Сведения о процессе",
+      "pid": "ID процесса",
+      "name": "Имя процесса",
+      "arch": "Архитектура",
+      "windowTitle": "Заголовок окна",
+      "memory": "Использование памяти",
+      "exePath": "Путь к исполняемому файлу",
+      "admin": "Администратор",
+      "speedStatus": "Состояние ускорения",
+      "injected": "Внедрение",
+      "statusInjected": "Внедрён",
+      "statusEnabled": "Ускорение вкл.",
+      "statusDisabled": "Ускорение выкл.",
+      "statusNotInjected": "Не внедрён",
+      "noSelection": "Выберите процесс из списка для просмотра сведений",
+      "yes": "Да",
+      "no": "Нет",
+      "modules": "Загруженные модули",
+      "moduleName": "Имя модуля",
+      "modulePath": "Путь",
+      "moduleBase": "Базовый адрес",
+      "moduleSize": "Размер",
+      "modulesCount": "{{count}} модулей"
+    }
+  },
+  "shortcut": {
+    "notSet": "Не задано",
+    "keyNotSupported": "Эту клавишу нельзя использовать как сочетание"
+  },
+  "settings": {
+    "loading": "Загрузка настроек…",
+    "speedShortcuts": "Ускорение/Замедление",
+    "shortcut": "Сочетание",
+    "step": "Шаг",
+    "increase": "Ускорить",
+    "decrease": "Замедлить",
+    "reset": "Сброс",
+    "gears": "Ступени скорости",
+    "hold": "Удержание",
+    "gear": "Ступень",
+    "multiplier": "Множитель",
+    "general": "Общие",
+    "autoStart": "Автозапуск",
+    "alwaysOnTop": "Поверх всех окон",
+    "hideToTray": "Скрывать в трей",
+    "language": "Язык",
+    "registerSuccess": "Сочетание \"{{shortcut}}\" зарегистрировано",
+    "registerFail": "Ошибка регистрации \"{{shortcut}}\""
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "Контроллер скорости игр с открытым исходным кодом",
+    "author": "Автор",
+    "license": "Лицензия",
+    "version": "Версия",
+    "system": "Система",
+    "socialLinks": "Социальные ссылки",
+    "socialGithub": "Профиль GitHub",
+    "socialSteam": "Страница в Steam",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "Информация о системе скопирована. Вставьте в отчёт.",
+    "copyInfoError": "Не удалось скопировать. Скопируйте вручную.",
+    "copyInfo": "Инфо о системе",
+    "openLog": "Открыть журнал"
+  }
+}

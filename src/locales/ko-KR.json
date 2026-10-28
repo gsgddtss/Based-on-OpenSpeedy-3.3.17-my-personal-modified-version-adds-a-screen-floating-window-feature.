@@ -1,0 +1,116 @@
+{
+  "tray": {
+    "show": "창 표시",
+    "quit": "종료",
+    "logs": "로그 폴더 열기"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "변속",
+      "settings": "설정",
+      "about": "정보"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "온라인",
+    "bridgeOffline": "오프라인"
+  },
+  "speed": {
+    "title": "속도 배율",
+    "slow": "SLOW",
+    "fast": "FAST",
+    "normal": "기본",
+    "reset": "초기화",
+    "confirm": "확인",
+    "cancel": "취소"
+  },
+  "process": {
+    "title": "프로세스 목록",
+    "search": "프로세스 이름, PID 또는 창 제목 검색…",
+    "pid": "PID",
+    "name": "프로세스 이름",
+    "admin": "권한",
+    "arch": "아키텍처",
+    "memory": "메모리",
+    "byPid": "PID",
+    "byName": "이름",
+    "count": "개수",
+    "enable": "가속",
+    "loading": "프로세스 목록 로딩 중…",
+    "noResults": "일치하는 프로세스 없음",
+    "injectFail": "주입 실패, 관리자 권한으로 실행해보세요",
+    "enableFail": "가속 활성화 실패",
+    "disableFail": "가속 비활성화 실패",
+    "showSystem": "시스템 프로세스 표시",
+    "detail": {
+      "title": "프로세스 상세",
+      "pid": "프로세스 ID",
+      "name": "프로세스 이름",
+      "arch": "아키텍처",
+      "windowTitle": "창 제목",
+      "memory": "메모리 사용량",
+      "exePath": "실행 파일 경로",
+      "admin": "관리자 권한",
+      "speedStatus": "가속 상태",
+      "injected": "주입 상태",
+      "statusInjected": "주입됨",
+      "statusEnabled": "가속 활성화",
+      "statusDisabled": "가속 비활성화",
+      "statusNotInjected": "주입 안 됨",
+      "noSelection": "왼쪽 목록에서 프로세스를 선택하여 상세 정보를 확인하세요",
+      "yes": "예",
+      "no": "아니오",
+      "modules": "로드된 모듈",
+      "moduleName": "모듈 이름",
+      "modulePath": "경로",
+      "moduleBase": "기본 주소",
+      "moduleSize": "크기",
+      "modulesCount": "{{count}}개 모듈"
+    }
+  },
+  "shortcut": {
+    "notSet": "설정 안 됨",
+    "keyNotSupported": "이 키는 단축키로 사용할 수 없습니다"
+  },
+  "settings": {
+    "loading": "설정 로딩 중…",
+    "speedShortcuts": "속도 증감",
+    "shortcut": "단축키",
+    "step": "단계",
+    "increase": "증가",
+    "decrease": "감소",
+    "reset": "초기화",
+    "confirm": "확인",
+    "cancel": "취소",
+    "gears": "변속 기어",
+    "hold": "길게 누르기",
+    "gear": "기어",
+    "multiplier": "배율",
+    "general": "일반 설정",
+    "autoStart": "자동 시작",
+    "alwaysOnTop": "항상 위",
+    "hideToTray": "트레이로 숨기기",
+    "language": "언어",
+    "registerSuccess": "단축키 \"{{shortcut}}\" 등록 성공",
+    "registerFail": "단축키 \"{{shortcut}}\" 등록 실패"
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "오픈소스 게임 속도 컨트롤러",
+    "author": "제작자",
+    "license": "라이선스",
+    "version": "버전",
+    "system": "시스템",
+    "socialLinks": "소셜 링크",
+    "socialGithub": "GitHub 프로필",
+    "socialSteam": "Steam 상점 페이지",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "시스템 정보를 복사했습니다. 문제 보고서에 붙여넣으세요.",
+    "copyInfoError": "시스템 정보 복사에 실패했습니다. 수동으로 복사하세요.",
+    "copyInfo": "시스템 정보",
+    "openLog": "로그 열기"
+  }
+}

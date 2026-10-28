@@ -1,0 +1,116 @@
+{
+  "tray": {
+    "show": "Fenster anzeigen",
+    "quit": "Beenden",
+    "logs": "Protokollordner öffnen"
+  },
+  "app": {
+    "title": "OpenSpeedy",
+    "tabs": {
+      "speed": "Tempo",
+      "settings": "Einstellungen",
+      "about": "Über"
+    }
+  },
+  "titleBar": {
+    "cpu": "CPU",
+    "ram": "RAM",
+    "bridgeOnline": "Online",
+    "bridgeOffline": "Offline"
+  },
+  "speed": {
+    "title": "Geschwindigkeit",
+    "slow": "LANGSAM",
+    "fast": "SCHNELL",
+    "normal": "Normal",
+    "reset": "Zurücksetzen",
+    "confirm": "OK",
+    "cancel": "Abbrechen"
+  },
+  "process": {
+    "title": "Prozessliste",
+    "search": "Nach Name, PID oder Fenstertitel suchen…",
+    "pid": "PID",
+    "name": "Prozessname",
+    "admin": "Admin",
+    "arch": "Architektur",
+    "memory": "Speicher",
+    "byPid": "PID",
+    "byName": "Name",
+    "count": "Anzahl",
+    "enable": "Tempo",
+    "loading": "Prozesse werden geladen…",
+    "noResults": "Keine passenden Prozesse",
+    "injectFail": "Injektion fehlgeschlagen – als Administrator ausführen",
+    "enableFail": "Aktivierung fehlgeschlagen",
+    "disableFail": "Deaktivierung fehlgeschlagen",
+    "showSystem": "Systemprozesse anzeigen",
+    "detail": {
+      "title": "Prozessdetails",
+      "pid": "Prozess-ID",
+      "name": "Prozessname",
+      "arch": "Architektur",
+      "windowTitle": "Fenstertitel",
+      "memory": "Speichernutzung",
+      "exePath": "Ausführungspfad",
+      "admin": "Administrator",
+      "speedStatus": "Geschwindigkeitsstatus",
+      "injected": "Injektion",
+      "statusInjected": "Injiziert",
+      "statusEnabled": "Aktiviert",
+      "statusDisabled": "Deaktiviert",
+      "statusNotInjected": "Nicht injiziert",
+      "noSelection": "Wählen Sie einen Prozess aus der Liste, um Details anzuzeigen",
+      "yes": "Ja",
+      "no": "Nein",
+      "modules": "Geladene Module",
+      "moduleName": "Modulname",
+      "modulePath": "Pfad",
+      "moduleBase": "Basisadresse",
+      "moduleSize": "Größe",
+      "modulesCount": "{{count}} Module"
+    }
+  },
+  "shortcut": {
+    "notSet": "Nicht gesetzt",
+    "keyNotSupported": "Diese Taste kann nicht als Tastenkürzel verwendet werden"
+  },
+  "settings": {
+    "loading": "Einstellungen laden…",
+    "speedShortcuts": "Geschwindigkeit +/-",
+    "shortcut": "Kürzel",
+    "step": "Schritt",
+    "increase": "Erhöhen",
+    "decrease": "Verringern",
+    "reset": "Zurücksetzen",
+    "confirm": "OK",
+    "cancel": "Abbrechen",
+    "gears": "Gangstufen",
+    "hold": "Halten",
+    "gear": "Gang",
+    "multiplier": "Multiplikator",
+    "general": "Allgemein",
+    "autoStart": "Autostart",
+    "alwaysOnTop": "Immer im Vordergrund",
+    "hideToTray": "In den Infobereich minimieren",
+    "language": "Sprache",
+    "registerSuccess": "Kürzel \"{{shortcut}}\" registriert",
+    "registerFail": "Kürzel \"{{shortcut}}\" fehlgeschlagen"
+  },
+  "about": {
+    "title": "OpenSpeedy",
+    "description": "Open Source Game Speed Controller",
+    "author": "Autor",
+    "license": "Lizenz",
+    "version": "Version",
+    "system": "System",
+    "socialLinks": "Soziale Links",
+    "socialGithub": "GitHub-Profil",
+    "socialSteam": "Steam-Shopseite",
+    "socialBmc": "Buy Me a Coffee",
+    "copyInfoSuccess": "Systeminformationen kopiert. Bereit zum Einfügen.",
+    "copyInfoError": "Kopieren fehlgeschlagen. Bitte manuell kopieren.",
+    "copyInfo": "Systeminfo",
+    "openLog": "Protokoll öffnen"
+  }
+}
