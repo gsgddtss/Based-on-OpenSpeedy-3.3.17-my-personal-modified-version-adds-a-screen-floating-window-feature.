@@ -1,3 +1,10 @@
+> ⚠️ **本仓库是 [OpenSpeedy](https://github.com/game1024/OpenSpeedy) 3.3.17 的个人修改版，非官方发布**，新增「屏幕悬浮窗」功能。
+> 下载与使用说明见 [Releases](../../releases/latest)。原项目版权归原作者所有，本仓库遵循 GPL-3.0 协议。
+> Official version / 官方版本：https://github.com/game1024/OpenSpeedy
+>
+> ⚠️ **This is a personal modified build of OpenSpeedy 3.3.17, not an official release.** It adds a screen floating overlay for speed control.
+> See [Releases](../../releases/latest) for the download. Original project is licensed under GPL-3.0.
+
 <h1 align="center"> OpenSpeedy </h1>
 
 <p align="center">
